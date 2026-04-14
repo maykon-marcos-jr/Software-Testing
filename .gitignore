@@ -3,3 +3,6 @@
 .env
 */*/.coverage
 */*/*/.coverage
+mutants/
+*/mutants/
+*/*/mutants/

@@ -16,10 +16,10 @@ A execução de cada teste de unidade (um teste para cada caminho) utilizando o 
 import sys, os
 sys.path.append(os.path.dirname(sys.path[0]))
 # to allow the code called to run modules on the same dir
-sys.path.append(os.path.join(os.path.dirname(sys.path[0]), 'src'))
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]), 'conteudo'))
 
-from src.puzzle_game import PuzzleGame
-from src.invalid_position_exception import InvalidPositionException
+from puzzle_game import PuzzleGame
+from invalid_position_exception import InvalidPositionException
 
 import unittest
 
