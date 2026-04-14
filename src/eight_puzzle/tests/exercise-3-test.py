@@ -1,4 +1,9 @@
-from puzzle_game import PuzzleGame
+import sys, os
+sys.path.append(os.path.dirname(sys.path[0]))
+# to allow the code called to run modules on the same dir
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]), 'src'))
+
+from src.puzzle_game import PuzzleGame
 
 import unittest
 

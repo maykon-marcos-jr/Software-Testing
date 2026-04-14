@@ -13,11 +13,16 @@ Para esta unidade:
 ---
 A execução de cada teste de unidade (um teste para cada caminho) utilizando o debug para que seja possível ver os comandos internos do método get_tile que foram executados.
 """
+import sys, os
+sys.path.append(os.path.dirname(sys.path[0]))
+# to allow the code called to run modules on the same dir
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]), 'src'))
+
+from src.puzzle_game import PuzzleGame
+from src.invalid_position_exception import InvalidPositionException
 
 import unittest
 
-from puzzle_game import PuzzleGame
-from invalid_position_exception import InvalidPositionException
 
 class ClasseTestesAllP(unittest.TestCase):
     def setUp(self):
