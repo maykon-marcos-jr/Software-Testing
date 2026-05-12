@@ -1,8 +1,13 @@
 */*/__pycache__/
 */*/*/__pycache__/
+*/*/*/*/__pycache__/
 .env
 */*/.coverage
 */*/*/.coverage
 mutants/
 */mutants/
 */*/mutants/
+*.zip
+*/*.zip
+*/*/*.zip
+*/*/*/*.zip
