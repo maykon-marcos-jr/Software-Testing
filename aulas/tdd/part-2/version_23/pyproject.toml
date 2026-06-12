@@ -1,0 +1,6 @@
+# PYTHONPATH=conteudo:tests mutmut run
+# PYTHONPATH=conteudo:tests coverage run --branch -m unittest tests.test_occurence_manager
+[tool.mutmut]
+paths_to_mutate = ["conteudo/"]
+tests_dir = ["tests/"]
+also_copy=["conteudo/"]
