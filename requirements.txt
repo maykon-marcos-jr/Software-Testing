@@ -1,2 +1,5 @@
+behave
 coverage
 mutmut
+py-solc-x
+web3
