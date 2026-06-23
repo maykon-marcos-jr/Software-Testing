@@ -1,19 +1,4 @@
-Background:
-    Given o contratante AAA Consultoria Empresarial Ltda.
-      And o contratada BBB Tecnologia Ltda.
-      And creation-date do contract é 2020/2/01
-      And a start-date do contract é 2020/2/16
-      And a end-date do contract é 2020/3/18
-      And o título do contrato é SC_AAA_BBB
-      And a oblig1 é ativada
-      And a oblig2 é ativada
-      And a oblig3 é ativada
-      And a oblig4 é ativada
-      And a oblig5 é ativada
-      And a oblig6 é ativada
-      And a oblig7 é ativada
-      And contrato está criado
-      And contrato está ativado
+Feature: SC_AAA_BBB Termination
 
 Scenario: Successful termination #1 of SC_AAA_BBB contract
     Given não violação da oblig2

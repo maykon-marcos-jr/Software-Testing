@@ -1,6 +1,5 @@
 Feature: SC_AAA_BBB Creation
 
-# Given <smart contract setup, including participants>
 Background:
 Given a contratante AAA Consultoria Empresarial Ltda.
   And a contratada BBB Tecnologia Ltda.
